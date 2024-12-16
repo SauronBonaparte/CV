@@ -1,1 +1,39 @@
 Сайт визитка HTML + CSS + JS
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <title>Владимир</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">Владимир Данилов</div>
+
+    <div class="block">
+      <div class="block-title">на связи</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="https://t.me/SauronBonaparte" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:dvv1990@gmail.com">@mail</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">чем занимаюсь :]</div>
+      <div class="entry">
+        QA engineer 
+      </div>
+      
+    </div>
+  </body>
+</html>
